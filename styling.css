@@ -1,0 +1,219 @@
+/*index.html page CSS */
+.name-header {
+	float: left;
+	color: white;
+	background-color: #4aaaa5;
+	font-family: Georgia;
+	font-size: 30px;
+	margin-left: 100px;
+	margin-top: -10px;
+	padding: 25px;
+	border: solid #cccccc;
+	width: 100%;
+
+}
+
+#index-links {
+	font-family: Georgia;
+	padding:16.5px;
+	font-size: 25px;
+	color: #cccccc;
+	background-color: white;
+	margin-top: -10px;
+	top: 0px;
+	z-index: -1;
+	height: 46px;
+	padding-left: 55%;
+	width: 20%;
+
+}
+
+a {
+	color: #cccccc;
+	text-decoration: none;
+}
+
+#link-breaks {
+	color: #cccccc;
+	font-family: Georgia;
+	font-size: 25px;
+
+}
+
+#about-me {
+	font-family: Georgia;
+	font-size:30px;
+	margin-bottom: 10px;
+	border-bottom: solid #cccccc;
+	padding-bottom: 20px;
+	color: #4aaaa5;
+}
+
+#info {
+	font-family: Arial;
+	border-style: solid;
+
+}
+
+#container {
+	clear: left;
+	background-color: #ffffff;
+	float: left;
+	border: solid #cccccc;
+	margin-top: 10px;
+/*	margin-left: 100px;*/
+	margin-bottom: 50px;
+/*	width: 40%;*/
+	padding: 20px;
+}
+
+#connect-with {
+	float: left;
+	color: #4aaaa5;
+	font-family: Georgia;
+	border: solid #cccccc;
+	margin-top: 10px;
+	padding: 20px;
+	margin-left: 50px;
+	width: 20%;
+	background-color: #ffffff;
+
+}
+
+#image {
+	float:left;
+	margin-right:10px;
+}
+
+#index-connect {
+	padding-bottom: 20px;
+	border-bottom: solid #cccccc;
+}
+
+
+/*CSS for contact.html */
+
+#container2 {
+	clear: left;
+	background-color: #ffffff;
+	float: left;
+	border: solid #cccccc;
+	margin-top: 10px;
+	margin-left: 100px;
+	margin-bottom: 50px;
+	width: 40%;
+	padding: 20px;
+	font-family: Georgia;
+	color: gray;
+}
+
+#contact-heading {
+	font-family: Georgia;
+	font-size:30px;
+	margin-bottom: 10px;
+	border-bottom: solid #cccccc;
+	padding-bottom: 20px;
+	color: #4aaaa5;
+}
+
+#name {
+	font-size: 10px;
+	font-family: Georgia;
+	border-bottom: solid #cccccc;
+	margin-right: 74.5%;
+}
+
+#email {
+	font-size: 10px;
+	font-family: Georgia;
+	border-bottom: solid #cccccc;
+	margin-right: 74.5%;
+}
+
+#message {
+	font-size: 10px;
+	font-family: Georgia;
+	border-bottom: solid #cccccc;
+	margin-right: 38%;
+
+}
+
+/*CSS for portfolio.html*/
+#portfolio-images {
+	clear: both;
+	float: left;
+	font-family: Georgia;
+	width: 40%;
+	border: solid #cccccc;
+	background-color: #ffffff;
+	color: #4aaaa5;
+	margin-left: 100px;
+	padding-left: 20px;
+	padding-bottom: 20px;
+}
+
+#portfolio-header {
+	color: #4aaaa5
+	font-size:35px;
+	padding-left: 20px;
+}
+
+
+
+head {
+	background: white;
+	border-bottom: solid #cccccc;
+
+}
+
+
+body {
+	background-image: url(../images/new_year.png);
+}
+
+footer {
+	clear: both;	
+	background-color: #666666;
+	color: #c8d3d2;
+	padding-bottom: 20px;
+	padding-top: 20px;
+	text-align: center;
+	position: static;
+	right: 0;
+	left: 0;
+	bottom: 0;
+	border-top: 10px solid #4aaaa5;
+	width: 100%;
+}
+
+img {
+	padding: 10px;
+}
+
+@media screen and (max-width: 980px) {
+
+}
+
+@media screen and (max-width: 786px) {
+
+}
+
+@media screen and (max-width: 640px) {
+	.name-header {
+		position: static;
+	}
+	
+	#index-links {
+		position: static;
+	}
+
+	footer {
+		position: static;
+	}
+
+	#container {
+		width: 95%;
+	}
+
+
+}
